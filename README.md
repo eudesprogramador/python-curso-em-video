@@ -46,5 +46,13 @@ print('O triplo de {} vale {}. '.format( n , t ))
 print('A raiz quadrada de {} é igual à {:.2f}. '.fotmat( n , r ))
 ```
 
+# 05-Desolvalva um programa que leia as duas notas de aluno, calcule e mostre a sua média.
+
+```
+n1 = int(input('nota 01: '))
+n2 = int(input('nota 02: '))
+M = ( n1 + n2 ) / 2
+print('sua média é ',M)
+
 
 
