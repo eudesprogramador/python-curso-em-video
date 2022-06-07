@@ -53,6 +53,17 @@ n1 = int(input('nota 01: '))
 n2 = int(input('nota 02: '))
 M = ( n1 + n2 ) / 2
 print('sua média é ',M)
+```
 
+# 06-Escreva um programa que que leia o valor em metros e o exiba convertido em centímetros e em milímetros.
 
+```
+print('CONVERSOR DE MEDIDAS')
+m = int(input('Digite um valor em metros: '))
+c = m * 100
+mm = m * 1000
+print('metros: {}m'.format( m ))
+print('centímetros: {}cm \nmilímetros: {}mm '.format( c , mm ))
+```
 
+# 07- 
