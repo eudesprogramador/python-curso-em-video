@@ -90,5 +90,18 @@ print('-' * 12)
 RS = int(input('digite um valor: '))
 US = RS * 3.27
 print(RS,'R$ é igual a {} US$ '.format(US))
-``
+```
+
+
+# 09-Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m².
+
+```
+larg = float(input('largura da parede: '))
+alt = float(input('altura da parede: '))
+área = larg * alt
+print('sua parede tem a dimensão de {} x {} e sua área é de {}m².'.format(larg ,alt ,área ))
+tinta = área / 2
+print('para pintar essa parede, voçê precissará de {}l de tinta.'.format(tinta))
+```
+
 
