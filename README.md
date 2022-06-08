@@ -114,5 +114,14 @@ print('o produto que custava R${:.2f}, na promoção de 5% vai custar R${:.2f}'.
 ```
 
 
-# 11-
+# 11-Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+
+```
+salário = float(input('qual é o salario do funcionário? R$'))
+novo = salário + (salário * 15 / 100)
+print('um funcionário que ganhava R${:.2f}, com 15% de aumento, passa a receber R   ${:.2f}'.format(salário ,novo))
+```
+
+# 12-
+
 
